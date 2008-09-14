@@ -1,5 +1,8 @@
 Revision history for Acme-CPANAuthors-Israeli
 
+0.0102
+        - Removed an author who did not want to be included.
+
 0.0101  Sun Sep 14 17:08:00 IDT 2008
         Added dependencies to the Build.PL.
 

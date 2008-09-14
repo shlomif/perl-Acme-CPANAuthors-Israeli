@@ -9,14 +9,13 @@ use Test::More tests => 2;
 
 my $authors = Acme::CPANAuthors->new('Israeli');
 # TEST
-is ($authors->count, 20, 'number of authors');
+is ($authors->count, 19, 'number of authors');
 # TEST
 is_deeply([sort $authors->id ], 
     [qw(
         AMOSS
         EILARA
         FELIXL
-        GAAL
         GENIE
         ISAAC
         MIGO

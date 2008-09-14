@@ -15,7 +15,6 @@ use Acme::CPANAuthors::Register (
     AMOSS => 'Amos Shapira',
     EILARA => 'Ran Eilam',
     FELIXL => 'Felix Liberman',
-    GAAL => 'Gaal Yahas',
     GENIE => 'Goldin Evgeny',
     ISAAC => 'Issac Goldstand',
     MIGO => 'Mikhael Goikhman',
@@ -33,7 +32,6 @@ use Acme::CPANAuthors::Register (
     YOSEFM => 'Yosef Meller',
     SCHOP => 'Ariel Brosh (R.I.P.)',
 );
-
 
 =head1 SYNOPSIS
 
