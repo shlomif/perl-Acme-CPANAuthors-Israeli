@@ -5,48 +5,32 @@ use strict;
 
 =head1 NAME
 
-Acme::CPANAuthors::Israeli - The great new Acme::CPANAuthors::Israeli!
-
-=head1 VERSION
-
-Version 0.01
+Acme::CPANAuthors::Israeli - We are Israeli CPAN Authors
 
 =cut
 
 our $VERSION = '0.01';
 
-
 =head1 SYNOPSIS
 
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
-
+    use Acme::CPANAuthors;
     use Acme::CPANAuthors::Israeli;
 
-    my $foo = Acme::CPANAuthors::Israeli->new();
-    ...
+    my $authors = Acme::CPANAuthors->new('Israeli');
 
-=head1 EXPORT
+    my $number = $authors->count;
+    my @ids = $authors->id();
+    my @distors = $authors->distributions('NUFFIN');
+    my $url = $authors->avatar_url('SZABGAB');
 
-A list of functions that can be exported.  You can delete this section
-if you don't export anything, such as for a purely object-oriented module.
+=head1 DESCRIPTION
+    
+    This class provides a hash of Pause IDs/names of Israeli CPAN authors.
 
-=head1 FUNCTIONS
+=head1 MAINTENANCE
 
-=head2 function1
-
-=cut
-
-sub function1 {
-}
-
-=head2 function2
-
-=cut
-
-sub function2 {
-}
+If you are an Israeli CPAN author and are not listed here, please contact
+me.
 
 =head1 AUTHOR
 
@@ -57,9 +41,6 @@ Shlomi Fish, C<< <shlomif at cpan.org> >>
 Please report any bugs or feature requests to C<bug-acme-cpanauthors-israeli at rt.cpan.org>, or through
 the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Acme-CPANAuthors-Israeli>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
-
-
-
 
 =head1 SUPPORT
 
@@ -88,18 +69,23 @@ L<http://cpanratings.perl.org/d/Acme-CPANAuthors-Israeli>
 
 L<http://search.cpan.org/dist/Acme-CPANAuthors-Israeli>
 
+=item * Version Control Repository:
+
+L<https://svn.berlios.de/svnroot/repos/web-cpan/Acme-CPANAuthors-Israeli/>
+
 =back
 
+=head1 SEE ALSO
+
+L<Acme::CPANAuthors> - the driver for this class.
 
 =head1 ACKNOWLEDGEMENTS
-
 
 =head1 COPYRIGHT & LICENSE
 
 Copyright 2008 Shlomi Fish, all rights reserved.
 
-This program is released under the following license: mit
-
+This program is released under the following license: MIT/X11 License.
 
 =cut
 
