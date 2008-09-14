@@ -1,8 +1,11 @@
 Build.PL
 Changes
+lib/Acme/CPANAuthors/Israeli.pm
 MANIFEST
 README
-lib/Acme/CPANAuthors/Israeli.pm
 t/00-load.t
+t/01-misc.t
 t/pod-coverage.t
 t/pod.t
+Makefile.PL
+META.yml

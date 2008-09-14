@@ -11,6 +11,30 @@ Acme::CPANAuthors::Israeli - We are Israeli CPAN Authors
 
 our $VERSION = '0.01';
 
+use Acme::CPANAuthors::Register (
+    AMOSS => 'Amos Shapira',
+    EILARA => 'Ran Eilam',
+    FELIXL => 'Felix Liberman',
+    GAAL => 'Gaal Yahas',
+    GENIE => 'Goldin Evgeny',
+    ISAAC => 'Issac Goldstand',
+    MIGO => 'Mikhael Goikhman',
+    NUFFIN => 'Yuval Kogman',
+    PETERG => 'Peter Gordon',
+    PRILUSKYJ => 'Jaime Prilusky',
+    RAZINF => 'Oded S. Resnik',
+    REUVEN => 'Reuven M. Lerner',
+    ROMM => 'Roman Parparov',
+    SEMUELF => 'Shmuel Fomberg',
+    SHLOMIF => 'Shlomi Fish',
+    SHLOMOY => 'Shlomo Yona',
+    SMALYSHEV => 'Stanislav Malyshev',
+    SZABGAB => 'Gabor Szabo',
+    YOSEFM => 'Yosef Meller',
+    SCHOP => 'Ariel Brosh (R.I.P.)',
+);
+
+
 =head1 SYNOPSIS
 
     use Acme::CPANAuthors;
@@ -25,7 +49,10 @@ our $VERSION = '0.01';
 
 =head1 DESCRIPTION
     
-    This class provides a hash of Pause IDs/names of Israeli CPAN authors.
+This class provides a hash of Pause IDs/names of Israeli CPAN authors.
+
+=cut
+
 
 =head1 MAINTENANCE
 
