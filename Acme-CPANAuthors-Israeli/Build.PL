@@ -17,6 +17,26 @@ my $builder = Module::Build->new(
     },
     add_to_cleanup      => [ 'Acme-CPANAuthors-Israeli-*' ],
     create_makefile_pl => 'traditional',
+    meta_merge => {
+        resources =>
+        {
+            license => "http://www.opensource.org/licenses/mit-license.php",
+            repository => "http://svn.berlios.de/svnroot/repos/web-cpan/Acme-CPANAuthors-Israeli/",
+        },        
+        keywords => 
+        [
+            "Acme",
+            "Authors",
+            "CPAN",
+            "CPANAuthors",
+            "israel",
+            "israeli",
+            "middle-east",
+            "module",
+            "stupid",
+            "vanity",
+        ],
+    },
 );
 
 $builder->create_build_script();

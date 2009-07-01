@@ -1,5 +1,8 @@
 Revision history for Acme-CPANAuthors-Israeli
 
+0.0200  Wed Jul  1 15:39:43 IDT 2009
+        - Added keywords and resources to the META.yml (via Build.PL).
+
 0.0102  Sun Sep 14 23:20:35 IDT 2008
         - Removed an author who did not want to be included.
 
