@@ -4,15 +4,15 @@ Revision history for Acme-CPANAuthors-Israeli
         - Add LICENSE file.
         - Update the repository link to point to GitHub.
 
-0.0200  Wed Jul  1 15:39:43 IDT 2009
+0.0200  2009-07-01
         - Added keywords and resources to the META.yml (via Build.PL).
 
-0.0102  Sun Sep 14 23:20:35 IDT 2008
+0.0102  2008-09-14
         - Removed an author who did not want to be included.
 
-0.0101  Sun Sep 14 17:08:00 IDT 2008
+0.0101  2008-09-14
         Added dependencies to the Build.PL.
 
-0.01    Sun Sep 14 16:31:20 IDT 2008
+0.01    2008-09-14
         First version, released on an unsuspecting world.
 
