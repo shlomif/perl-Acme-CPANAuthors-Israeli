@@ -21,9 +21,9 @@ my $builder = Module::Build->new(
         resources =>
         {
             license => "http://www.opensource.org/licenses/mit-license.php",
-            repository => "http://svn.berlios.de/svnroot/repos/web-cpan/Acme-CPANAuthors-Israeli/",
-        },        
-        keywords => 
+            repository => "https://github.com/shlomif/perl-Acme-CPANAuthors-Israeli",
+        },
+        keywords =>
         [
             "Acme",
             "Authors",

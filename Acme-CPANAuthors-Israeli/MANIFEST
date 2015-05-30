@@ -1,6 +1,7 @@
 Build.PL
 Changes
 lib/Acme/CPANAuthors/Israeli.pm
+LICENSE
 MANIFEST
 README
 t/00-load.t
