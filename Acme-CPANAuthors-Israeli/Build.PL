@@ -7,6 +7,10 @@ my $builder = Module::Build->new(
     license             => 'mit',
     dist_author         => 'Shlomi Fish <shlomif@cpan.org>',
     dist_version_from   => 'lib/Acme/CPANAuthors/Israeli.pm',
+    configure_requires =>
+    {
+        'Module::Build' => '0.37',
+    },
     requires => {
         'Acme::CPANAuthors' => 0,
         'Acme::CPANAuthors::Register' => 0,
