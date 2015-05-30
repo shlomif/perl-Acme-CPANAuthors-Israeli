@@ -11,7 +11,7 @@ my $authors = Acme::CPANAuthors->new('Israeli');
 # TEST
 is ($authors->count, 19, 'number of authors');
 # TEST
-is_deeply([sort $authors->id ], 
+is_deeply([sort $authors->id ],
     [qw(
         AMOSS
         EILARA

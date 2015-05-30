@@ -46,7 +46,7 @@ use Acme::CPANAuthors::Register (
     my $url = $authors->avatar_url('SZABGAB');
 
 =head1 DESCRIPTION
-    
+
 This class provides a hash of Pause IDs/names of Israeli CPAN authors.
 
 =cut
