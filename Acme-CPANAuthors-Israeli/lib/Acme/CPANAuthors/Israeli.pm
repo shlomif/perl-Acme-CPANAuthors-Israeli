@@ -9,7 +9,7 @@ Acme::CPANAuthors::Israeli - We are Israeli CPAN Authors
 
 =cut
 
-our $VERSION = '0.0309';
+our $VERSION = '0.0310';
 
 use Acme::CPANAuthors::Register (
     AMOSS => 'Amos Shapira',
